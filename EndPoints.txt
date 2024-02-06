@@ -1,0 +1,19 @@
+EndPoints :
+
+GET : http://localhost:4000/contact/lister (lister des contacts)
+
+ GET : http://localhost:4000/contact/:idcontact/supprimer (supprimer un contact)
+
+
+POST : http://localhost:4000/contact/ajouter (ajouter un nv contact)
+          {
+             "nom" : "hela",
+             "numero": "216 29 456 119"
+            }
+
+POST :http://localhost:4000/contact/:idcontact/modifier (modifier un contact)
+
+        {
+             "nom" : "hela",
+             "numero": "216 29 456 119"
+            }
